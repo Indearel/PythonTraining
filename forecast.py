@@ -1,6 +1,6 @@
 import requests
 
-api_key = "7c33650d760502044f62892bc7edfb14"
+api_key = ""
 city = "Helsinki"
 url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api_key+"&units=metric"
 
