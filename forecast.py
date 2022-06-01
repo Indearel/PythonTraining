@@ -1,7 +1,7 @@
 import requests
 
 def get_weather_descprition_and_temp():
-    api_key = "d719fcc054aaac974b63a6ab3e2170e2"
+    api_key = "token_placeholder"
     city = "Helsinki"
     url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api_key+"&units=metric"
 
